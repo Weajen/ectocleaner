@@ -11,7 +11,7 @@
 }
 
 header{
-    background-color: rgb(20, 22, 22);
+    background-color: black;
     min-height: 20vh;
     padding:20px;
 }
@@ -42,7 +42,6 @@ nav ul li a {
     justify-content: space-between;
     background-color: rgb(20, 22, 22);
     min-height: 20vh;
-    padding:20px;
     font-family: "Pixel Operator" ;
     color: #b9ffb2;
     overflow: hidden;
