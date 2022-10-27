@@ -11,7 +11,7 @@
 }
 
 header{
-    background-color: black;
+    background-color: rgb(20, 22, 22);
     min-height: 20vh;
     padding:20px;
 }
@@ -49,4 +49,20 @@ nav ul li a {
 
 .louis{
     width: 100vw;
+}
+
+@media screen and (max-width: 900px) {
+    .louis{
+        width: 200vh;
+    }
+    nav {
+        display:flex;
+        flex-direction: column;
+    }
+    nav h1 {
+        padding-bottom: 20px;
+    }
+    .intro{
+        font-size: 10px;
+    }
 }
